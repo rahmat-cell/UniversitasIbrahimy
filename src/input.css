@@ -5,6 +5,9 @@
 body{
     font-family: 'Inter', sans-serif ;
 }
+text-dark{
+    @apply dark:text-slate-800 ;
+}
 
 .navbar-fixed{
     @apply fixed z-[9999] bg-white opacity-80 text-slate-800;
