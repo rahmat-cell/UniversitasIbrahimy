@@ -697,6 +697,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-32 {
+  margin-top: 8rem;
+}
+
 .block {
   display: block;
 }
@@ -981,6 +985,11 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .pb-10 {
