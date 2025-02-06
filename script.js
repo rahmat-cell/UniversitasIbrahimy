@@ -38,7 +38,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
     var name		= document.getElementById("name").value;
     var email 		= document.getElementById("email").value;
     var message 	= document.getElementById("message").value;
-    let contact 	= 'nomor WA kamu'; // isi dengan nomor WA (+6283811223344)
+    let contact 	= '+6285147194415';
 
     var encodedMessage = encodeURIComponent(
         "Nama Depan	: " + name + "\n" +
