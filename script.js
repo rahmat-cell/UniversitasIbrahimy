@@ -48,10 +48,9 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
 
     var link;
 
-    // Check if user is on a mobile device
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         link = `whatsapp://send?phone=${contact}&text=${encodedMessage}`;
-    } else { // Desktop device
+    } else {
         link = `https://api.whatsapp.com/send?phone=${contact}&text=${encodedMessage}`;
     }
 
