@@ -41,7 +41,7 @@ document.getElementById("whatsappForm").addEventListener("submit", function (eve
     let contact 	= '+6285147194415';
 
     var encodedMessage = encodeURIComponent(
-        "Nama Depan	: " + name + "\n" +
+        "Nama Lengkap :" + name + "\n" +
         "Email		: " + email + "\n" +
         "Pesan		: " + message
     );
